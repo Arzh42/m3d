@@ -1,0 +1,1071 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"comp",
+				"composerObjet3d_etu"
+			],
+			[
+				"centre",
+				"centreGraviteTriangle3d_etu"
+			],
+			[
+				"cent",
+				"centreGrav"
+			],
+			[
+				"mai",
+				"maillon1"
+			],
+			[
+				"degre",
+				"degreZ"
+			],
+			[
+				"est",
+				"est_camera"
+			],
+			[
+				"maill",
+				"maillon3"
+			],
+			[
+				"objt",
+				"objet_vide_etu"
+			],
+			[
+				"objet",
+				"objet"
+			],
+			[
+				"x",
+				"xyzt"
+			],
+			[
+				"tran",
+				"transformationTriangle3d_etu"
+			],
+			[
+				"trans",
+				"translationTriangle3d_etu"
+			],
+			[
+				"degr",
+				"degreZ"
+			],
+			[
+				"def",
+				"definirPoint3d_etu"
+			],
+			[
+				"defin",
+				"definirPoint3d_etu"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"mobile",
+				"mobilecheck"
+			],
+			[
+				"javas",
+				"javascript"
+			],
+			[
+				"ani",
+				"animId"
+			],
+			[
+				"cha",
+				"character_sprite"
+			],
+			[
+				"frame",
+				"frameNumber"
+			],
+			[
+				"te",
+				"texturesA"
+			],
+			[
+				"deco",
+				"decorEngine"
+			],
+			[
+				"left",
+				"leftBlocked"
+			],
+			[
+				"lef",
+				"leftBlocked"
+			],
+			[
+				"right",
+				"rightBlocked"
+			],
+			[
+				"ag",
+				"againstWallRight"
+			],
+			[
+				"coll",
+				"collisionLeft"
+			],
+			[
+				"collis",
+				"collisionBottom"
+			],
+			[
+				"slice",
+				"slice_map"
+			],
+			[
+				"load",
+				"loadingGameAsset"
+			],
+			[
+				"retur",
+				"returnedDecor"
+			],
+			[
+				"decor",
+				"decorPoolA"
+			],
+			[
+				"inn",
+				"innerHeight-50"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"click",
+				"clickOnCanvas"
+			],
+			[
+				"flo",
+				"floorXMin"
+			],
+			[
+				"get",
+				"getX"
+			],
+			[
+				"SLICE",
+				"SLICEWIDTH"
+			],
+			[
+				"pre",
+				"previousCamY"
+			],
+			[
+				"touch",
+				"touchDegat"
+			],
+			[
+				"pro",
+				"protectedFace"
+			],
+			[
+				"text",
+				"texture_src"
+			],
+			[
+				"ch",
+				"character_x"
+			],
+			[
+				"chara",
+				"character_sprite_texture_definition"
+			],
+			[
+				"crea",
+				"create_sliceMap"
+			],
+			[
+				"create",
+				"create_decorArray"
+			],
+			[
+				"sle",
+				"slice_map"
+			],
+			[
+				"po",
+				"poolSize"
+			],
+			[
+				"image",
+				"images_loader"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"inel",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"floor",
+				"floorTouchedTest"
+			],
+			[
+				"pos",
+				"posY"
+			],
+			[
+				"j",
+				"jumpkey"
+			],
+			[
+				"gra",
+				"gravity"
+			],
+			[
+				"rendere",
+				"renderedDecor"
+			],
+			[
+				"new",
+				"newLeft"
+			],
+			[
+				"retu",
+				"returnedDecor"
+			],
+			[
+				"rende",
+				"renderedDecor"
+			],
+			[
+				"dec",
+				"decorPoolA"
+			],
+			[
+				"LSITE",
+				"LISTET"
+			],
+			[
+				"LIS",
+				"LISTE_rech"
+			],
+			[
+				"LISTE",
+				"LISTET"
+			],
+			[
+				"LSITE_rech",
+				"LISTE_rechercher_rec"
+			],
+			[
+				"LIST",
+				"LISTET"
+			],
+			[
+				"in",
+				"inNumber"
+			],
+			[
+				"CLA",
+				"CLAUSE_afficher"
+			],
+			[
+				"int",
+				"interpret"
+			],
+			[
+				"INTER",
+				"INTERPRETATION_maj"
+			],
+			[
+				"CL",
+				"CLAUSE_afficher"
+			],
+			[
+				"LITT",
+				"LITTERAL_afficher"
+			],
+			[
+				"LIT",
+				"LITTERAL_afficher"
+			],
+			[
+				"type",
+				"typeVariable"
+			],
+			[
+				"nb",
+				"nbVariables"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"lit",
+				"litteraux"
+			],
+			[
+				"CA",
+				"CLAUSE"
+			],
+			[
+				"IN",
+				"INTERPRETATION"
+			],
+			[
+				"cla",
+				"clauses"
+			],
+			[
+				"cl",
+				"clauses"
+			],
+			[
+				"ma",
+				"malloc"
+			],
+			[
+				"INT",
+				"INTERPRETATION_maj"
+			],
+			[
+				"VA",
+				"VARIABLE_creer"
+			],
+			[
+				"conne",
+				"connectDB"
+			],
+			[
+				"ds",
+				"display"
+			],
+			[
+				"s",
+				"signUpForm"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"sign",
+				"signUpWin"
+			],
+			[
+				"si",
+				"signInWin"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"video",
+				"video-id"
+			],
+			[
+				"yout",
+				"youtubeLink"
+			],
+			[
+				"ja",
+				"javascripts"
+			],
+			[
+				"user",
+				"userResult"
+			],
+			[
+				"da",
+				"dailymotionLink"
+			],
+			[
+				"bas",
+				"basicConnect"
+			],
+			[
+				"ba",
+				"basicConnect"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"op",
+				"openAccHeaWin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib_3d_etu.c",
+			"settings":
+			{
+				"buffer_size": 4169,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_objet3d.h",
+			"settings":
+			{
+				"buffer_size": 6302,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 1217,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_3d.h",
+			"settings":
+			{
+				"buffer_size": 4604,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_surface.h",
+			"settings":
+			{
+				"buffer_size": 1659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_objet3d_etu.c",
+			"settings":
+			{
+				"buffer_size": 7967,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fonctions.c",
+			"settings":
+			{
+				"buffer_size": 3474,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 124.0,
+		"last_filter": "Package Control: inst",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: n",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 515.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hugo/Documents/ENSSAT/m3d_src"
+	],
+	"file_history":
+	[
+		"/home/hugo/Documents/ENSSAT/m3d_src/lib_objet3d_etu.c",
+		"/home/hugo/Documents/node/game-1/public/javascripts/class/AnimatedSprite.js",
+		"/home/hugo/Documents/node/game-1/public/javascripts/class/Character.js",
+		"/home/hugo/Documents/node/game-1/public/javascripts/index.js",
+		"/home/hugo/Documents/node/game-1/app.js",
+		"/home/hugo/Documents/node/game-1/views/index.pug",
+		"/home/hugo/Documents/node/game-1/public/javascripts/class/DecorEngine.js",
+		"/home/hugo/Documents/node/game-1/public/javascripts/detectmobile.js",
+		"/home/hugo/Documents/node/game-1/public/stylesheets/index.css",
+		"/home/hugo/Documents/node/game-1/public/javascripts/class/GameEngine.js",
+		"/home/hugo/Documents/node/game-1/public/javascripts/mapCreator/map.js",
+		"/home/hugo/Documents/node/game-1/public/stylesheets/map.css",
+		"/home/hugo/Documents/node/game-1/views/map.pug",
+		"/home/hugo/Documents/node/OpenshiftAppRepository/nodejs-ex/server.js",
+		"/home/hugo/Documents/node/OpenshiftAppRepository/nodejs-ex/package.json",
+		"/home/hugo/Documents/node/OpenshiftAppRepository/nodejs-ex/bin/www",
+		"/home/hugo/Documents/node/game-1/public/javascripts/class/DecorPool.js",
+		"/home/hugo/Documents/node/game-1/public/javascripts/class/CreepImmobile.js",
+		"/home/hugo/Documents/node/game-1/public/json/mapFileExample.json",
+		"/home/hugo/Documents/node/game-1/routes/index.js",
+		"/home/hugo/Documents/node/game/public/javascripts/class/GameEngine.js",
+		"/home/hugo/Documents/node/game/game-1/public/javascripts/class/Character.js",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/LISTET.c",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/header/LISTEP.h",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/LISTEP.c",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/header/LISTET.h",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/TD1/TD1.h",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/main.c",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/TD1/TDTRIRAPIDE.h",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/TD1/TDTRIRAPIDE.c",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/TD1/TD1.c",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/LISTEP.h",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/header/TD1.h",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/TD1/definitionListe.h",
+		"/home/hugo/Documents/ENSSAT/Algorithme/Algo2/TD1/definitionListe.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/VARIABLE.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/DIMACS.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/CLAUSE.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/LITTERAL.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/INTERPRETATION.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/THEORIE.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/Makefile",
+		"/home/hugo/Downloads/Algo Alban/DIMACS.c",
+		"/home/hugo/Downloads/Algo Alban/solver.c",
+		"/home/hugo/Downloads/Algo Alban/uf20-01.cnf",
+		"/home/hugo/Downloads/Algo Alban/CLAUSE.c",
+		"/home/hugo/Downloads/Algo Alban/INTERPRETATION.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/solver.c",
+		"/home/hugo/Downloads/Algo Alban/LITTERAL.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/INTERPRETATION.h",
+		"/home/hugo/Downloads/Algo Alban/VARIABLE.c",
+		"/home/hugo/Downloads/Algo Alban/THEORIE.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/data/simple_v3_c2.cnf",
+		"/home/hugo/Documents/Projet tp Algo/Archive/data/uf50-01.cnf",
+		"/home/hugo/Documents/Projet tp Algo/Archive/data/uuf50-01.cnf",
+		"/home/hugo/Documents/Projet tp Algo/Archive/data/uf20-01.cnf",
+		"/home/hugo/Documents/Projet tp Algo/Archive/THEORIE.h",
+		"/home/hugo/Documents/Projet tp Algo/Archive/DIMACS.h",
+		"/home/hugo/Documents/Projet tp Algo/Archive/tests.c",
+		"/home/hugo/Documents/Projet tp Algo/Archive/test",
+		"/home/hugo/Documents/Projet tp Algo/Archive/VARIABLE.h",
+		"/home/hugo/Music/Projet Algo TP 1/tests.c",
+		"/media/hugo/PHILIPS UFD/Projet Algo TP 1/tests.c",
+		"/home/hugo/Documents/node/myMoney/routes/index.js",
+		"/home/hugo/Documents/node/myMoney/public/javascripts/index.js",
+		"/home/hugo/Documents/node/myMoney/app.js",
+		"/home/hugo/Documents/node/myMoney/package.json",
+		"/home/hugo/Documents/node/myMoney/lib/database.js",
+		"/home/hugo/Documents/node/myMoney/views/index.pug",
+		"/home/hugo/Documents/node/myMoney/public/stylesheets/index.css",
+		"/home/hugo/Documents/node/myMoney/views/home.pug",
+		"/home/hugo/Documents/node/myMoney/public/manifest.appcache",
+		"/home/hugo/Documents/node/LittleIsland/app.js",
+		"/home/hugo/Documents/node/myMoney/bin/www",
+		"/home/hugo/Documents/node/myMoney/public/javascripts/qrcodejs.js",
+		"/home/hugo/Documents/node/myMoney/public/javascripts/qrcode.js",
+		"/home/hugo/Documents/node/Tubegether/routes/index.js",
+		"/home/hugo/Documents/node/Tubegether/lib/class/DBEngine.ts",
+		"/home/hugo/Documents/node/Tubegether/routes/api.js",
+		"/home/hugo/Documents/node/Tubegether/lib/main.js",
+		"/home/hugo/Documents/node/Tubegether/routes/users.js",
+		"/home/hugo/Documents/node/Tubegether/public/stylesheets/gestionVideo.css",
+		"/home/hugo/Documents/node/Tubegether/app.js",
+		"/home/hugo/Documents/node/Tubegether/public/javascripts/gestionVideo.js",
+		"/home/hugo/Documents/node/Tubegether/public/stylesheets/less/global.less",
+		"/home/hugo/Documents/node/Tubegether/public/stylesheets/less/index.less",
+		"/home/hugo/Documents/node/Tubegether/views/index.pug",
+		"/home/hugo/Documents/node/Tubegether/public/stylesheets/watch.css",
+		"/home/hugo/Documents/node/Tubegether/public/stylesheets/global.css",
+		"/home/hugo/Documents/node/Tubegether/public/stylesheets/less/gestionVideo.less",
+		"/home/hugo/Documents/node/Tubegether/views/gestionVideo.pug",
+		"/home/hugo/Documents/node/Tubegether/public/javascripts/index.js",
+		"/home/hugo/Documents/node/Tubegether/public/stylesheets/index.css",
+		"/home/hugo/Documents/node/Tubegether/package.json",
+		"/home/hugo/Documents/node/Tubegether/views/watch.pug",
+		"/home/hugo/Documents/node/Tubegether/views/account.pug",
+		"/home/hugo/Documents/node/Tubegether/lib/main.ts",
+		"/home/hugo/Documents/node/Tubegether/gulpfile.js",
+		"/C/Users/hugo/Desktop/lib/class/DBEngine2.ts",
+		"/C/Users/hugo/Documents/node/Tubegether/lib/main.js",
+		"/C/Users/hugo/Desktop/lib/base.ts",
+		"/C/Users/hugo/Documents/node/Tubegether/lib/tsconfig.json",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/less/gestionVideo.less",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/less/formulaire.less",
+		"/C/Users/hugo/Documents/node/Tubegether/gulpfile.js",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/less/global.less",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/less/watch.less",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/less/index.less",
+		"/C/Users/hugo/Documents/node/Tubegether/views/index.pug",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/gestionVideo.css",
+		"/C/Users/hugo/Documents/node/Tubegether/views/account.pug",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/index.css",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/watch.css",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/blockForm.css",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/global.css",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/gestionVideo.less",
+		"/C/Users/hugo/Documents/node/Tubegether/views/videoGestion.pug",
+		"/C/Users/hugo/Documents/node/Tubegether/views/watch.pug",
+		"/C/Users/hugo/Documents/node/Tubegether/routes/users.js",
+		"/C/Users/hugo/Documents/node/Tubegether/routes/index.js",
+		"/C/Users/hugo/Documents/node/Tubegether/bin/www",
+		"/C/Users/hugo/Documents/node/Tubegether/public/javascripts/index.js",
+		"/C/Users/hugo/Desktop/public/stylesheets/global.css",
+		"/C/Users/hugo/Documents/node/Tubegether/public/stylesheets/style.css",
+		"/C/Users/hugo/Desktop/views/watch.pug",
+		"/C/Users/hugo/Desktop/mongodatabase.bat",
+		"/C/Users/hugo/Documents/node/Tubegether/package.json",
+		"/C/Users/hugo/Documents/node/Tubegether/views/error.pug"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"t_triangle3d * triangle12",
+			"t_triangle3d * triangle11",
+			"t_triangle3d * triangle10",
+			"t_triangle3d * triangle9",
+			"t_triangle3d * triangle8",
+			"t_triangle3d * triangle7",
+			"t_triangle3d * triangle6",
+			"t_triangle3d * triangle5",
+			"t_triangle3d * triangle4",
+			"t_triangle3d * triangle3",
+			"t_triangle3d * triangle2",
+			"t_triangle3d * triangle1",
+			"h",
+			"l",
+			"sx",
+			"]",
+			"[",
+			"SLICEHORIZONTALSIZE",
+			"\t\n",
+			"this.",
+			"gra",
+			"⇤",
+			"\");\n",
+			"TEST2",
+			"CLAUSE_afficher",
+			"afficher",
+			"printf",
+			"formNav",
+			"getVideo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"t_maillon maillon1 = malloc(sizeof(t_maillon));\n\tmaillon1->face = ",
+			"sy",
+			"sx",
+			"l",
+			"}",
+			"{",
+			"",
+			"*"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib_3d_etu.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2067,
+								2088
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib_objet3d.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6181,
+								6181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1217,
+								1217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib_3d.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1796,
+								1796
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib_surface.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1233,
+								1233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 335.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib_objet3d_etu.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4252,
+								4252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "fonctions.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1771,
+								1771
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.typescript_output":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "",
+	"project": "m3d_src.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

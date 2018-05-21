@@ -1,0 +1,500 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pt",
+				"pt_feuille"
+			],
+			[
+				"def",
+				"definirScene3d_etu"
+			],
+			[
+				"obj",
+				"objet_vide"
+			],
+			[
+				"f",
+				"fPIC"
+			],
+			[
+				"aff",
+				"afficher"
+			],
+			[
+				"ins",
+				"insertion"
+			],
+			[
+				"inse",
+				"insertion_aux"
+			],
+			[
+				"o_fil",
+				"o_file2"
+			],
+			[
+				"tmp",
+				"tmp_split_"
+			],
+			[
+				"pro",
+				"projectV2_combMergeAux"
+			],
+			[
+				"fil",
+				"filenames_sort"
+			],
+			[
+				"projectV2_co",
+				"projectV2_combMergeAux"
+			],
+			[
+				"proje",
+				"projectV0"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib_3d_etu.c",
+			"settings":
+			{
+				"buffer_size": 4257,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_scene3d_etu.c",
+			"settings":
+			{
+				"buffer_size": 926,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_objet3d.h",
+			"settings":
+			{
+				"buffer_size": 6329,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_objet3d_etu.c",
+			"settings":
+			{
+				"buffer_size": 8445,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fonctions.c",
+			"settings":
+			{
+				"buffer_size": 3698,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib_2d.c",
+			"settings":
+			{
+				"buffer_size": 4389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 1259,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/hugo/Documents/ENSSAT/m3d_src"
+	],
+	"file_history":
+	[
+		"/home/hugo/Documents/ENSSAT/sdd/tp1/avl.h",
+		"/home/hugo/Documents/ENSSAT/sdd/tp1/abr.h",
+		"/home/hugo/Documents/ENSSAT/sdd/tp1/makefile",
+		"/home/hugo/Documents/ENSSAT/sdd/tp1/abr.c",
+		"/home/hugo/Documents/ENSSAT/sdd/tp1/avl.c",
+		"/home/hugo/Documents/ENSSAT/info/systex/Projet/src/project_v1.c",
+		"/home/hugo/Documents/ENSSAT/info/systex/Projet/src/project_v2.c",
+		"/home/hugo/Documents/ENSSAT/info/systex/Projet/src/project_v1.h",
+		"/home/hugo/Documents/ENSSAT/info/systex/Projet/src/project_v2.h",
+		"/home/hugo/Documents/ENSSAT/info/systex/Projet/src/project.c",
+		"/home/hugo/Documents/ENSSAT/info/systex/ProjetV1/src/system_utils_etu.c",
+		"/home/hugo/Documents/ENSSAT/info/systex/ProjetV1/src/project_v1.c",
+		"/home/hugo/Documents/ENSSAT/info/systex/ProjetV1/src/project.c",
+		"/home/hugo/Documents/ENSSAT/info/systex/Projet/bin/project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"t_tree",
+			"v1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"t_avl",
+			"v2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib_3d_etu.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3647,
+								3647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1679.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib_scene3d_etu.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib_objet3d.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								588,
+								588
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib_objet3d_etu.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6205,
+								6205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2926.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "fonctions.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3105,
+								3105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib_2d.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								716,
+								716
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "zesrgyuhjiopkl.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
