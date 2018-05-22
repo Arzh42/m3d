@@ -5,9 +5,7 @@
 #include "lib_mat.h"
 
 t_objet3d* objet_vide_etu(){
-	t_objet3d * objet;
-	objet = (t_objet3d *) malloc(sizeof(t_objet3d));
-	
+	t_objet3d * objet = (t_objet3d *) malloc(sizeof(t_objet3d));
 	if (objet!=NULL) {
 		objet->est_trie = false;
 		objet->est_camera = false;
@@ -252,5 +250,6 @@ void transformationObjet3d_etu(t_objet3d* pt_objet, double mat[4][4])
 		}
 		o = o->pt_suiv;
 	}
+	pt_objet->est_trie = false;
 
 }

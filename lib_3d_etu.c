@@ -40,7 +40,8 @@ t_point3d *definirVecteur3d_etu(double x, double y, double z)
 	return p;
 }
 t_point3d *copierPoint3d_etu(t_point3d *t) {
-	return definirPoint3d_etu(t->xyzt[0],t->xyzt[1],t->xyzt[2]);
+	t_point3d * t2 = definirPoint3d(t->xyzt[0],t->xyzt[1],t->xyzt[2]);
+	return t2;
 };
 
 t_triangle3d *definirTriangle3d_etu(t_point3d * a, t_point3d * b, t_point3d * c){
@@ -129,17 +130,19 @@ void remplirTriangle3d_etu(t_surface * surface, t_triangle3d * triangle, Uint32 
 };
 
 void translationTriangle3d_etu(t_triangle3d *t, t_point3d *vecteur){
-	double trans[4][4] = {{1,0,0,vecteur->xyzt[0]},{0,1,0,vecteur->xyzt[1]},{0,0,1,vecteur->xyzt[2]},{0,0,0,0}};
+	double trans[4][4] = {{1,0,0,vecteur->xyzt[0]},{0,1,0,vecteur->xyzt[1]},{0,0,1,vecteur->xyzt[2]},{0,0,0,1}};
 	transformationTriangle3d(t,trans);
 };
 void rotationTriangle3d_etu(t_triangle3d *t, t_point3d *centre, float degreX, float degreY, float degreZ){
+	t_point3d * retour = definirPoint3d(-1*centre->xyzt[0],-1*centre->xyzt[1],-1*centre->xyzt[2]);
 	double rotX[4][4] = {{1,0,0,0},{0,cos(degreX),-1*sin(degreX),0},{0,sin(degreX),cos(degreX),0},{0,0,0,0}};
 	double rotY[4][4] = {{cos(degreY),0,sin(degreY),0},{0,1,0,0},{-1*sin(degreY),0,cos(degreY),0},{0,0,0,0}};
 	double rotZ[4][4] = {{cos(degreZ),-1*sin(degreZ),0,0},{sin(degreZ),cos(degreZ),0,0},{0,0,0,0}};
-	translationTriangle3d_etu(t,centre);
-	transformationTriangle3d_etu(t,rotX);
-	transformationTriangle3d_etu(t,rotY);
-	transformationTriangle3d_etu(t,rotZ);
+	translationTriangle3d(t,centre);
+	transformationTriangle3d(t,rotX);
+	transformationTriangle3d(t,rotY);
+	transformationTriangle3d(t,rotZ);
+	translationTriangle3d(t,retour);
 };
 
 
@@ -156,6 +159,7 @@ void transformationTriangle3d_etu(t_triangle3d *t, double mat[4][4])
 {
 	t_point3d *p3dtmp;
 	int i;
+	printf("test\n");
 	if (t!=NULL&&t->abc!=NULL) {
 		p3dtmp = (t_point3d*)malloc(sizeof(t_point3d));
 		if (p3dtmp!=NULL)
@@ -167,9 +171,15 @@ void transformationTriangle3d_etu(t_triangle3d *t, double mat[4][4])
 
 			}
 		}
+		else {
+			printf("erreur\n");
+		}
 
 		free(p3dtmp);
 		
+	}
+	else {
+		printf("erreur\n");
 	}
 
 }

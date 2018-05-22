@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/hugo/Downloads/projet3D-master"
 		}
 	]
 }
