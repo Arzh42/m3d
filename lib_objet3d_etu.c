@@ -5,16 +5,21 @@
 #include "lib_mat.h"
 
 t_objet3d* objet_vide_etu(){
-	
-	t_objet3d *o;
+	t_objet3d * objet = (t_objet3d *) malloc(sizeof(t_objet3d));
+	if (objet!=NULL) {
+		objet->est_trie = false;
+		objet->est_camera = false;
+		objet->largeur = 0;
+		objet->hauteur = 0;
+		objet->proche = 0;
+		objet->loin = 0;
+		objet->distance_ecran = 0;
+	}
+	else {
+		printf("erreur création objet\n");
+	}
 
-	o = (t_objet3d*) malloc(sizeof(t_objet3d));
-	o->est_trie = false;
-	o->est_camera = false;
-	o->tete = NULL;
-
-	return o;
-
+	return objet;
 };
 t_objet3d *camera_etu(double l, double h, double n, double f, double d){
 	t_objet3d * objet = objet_vide();
@@ -27,86 +32,69 @@ t_objet3d *camera_etu(double l, double h, double n, double f, double d){
 	return objet;
 }; // zone l*h dans le champ n->f
 t_objet3d* parallelepipede_etu(double lx, double ly, double lz){
-	t_point3d * point1 = definirPoint3d(0,0,0);
-	t_point3d * point2 = definirPoint3d(lx,0,0);
-	t_point3d * point3 = definirPoint3d(lx,ly,0);
-	t_point3d * point4 = definirPoint3d(0,ly,0);
-	t_point3d * point5 = definirPoint3d(0,0,lz);
-	t_point3d * point6 = definirPoint3d(lx,0,lz);
-	t_point3d * point7 = definirPoint3d(lx,ly,lz);
-	t_point3d * point8 = definirPoint3d(0,ly,lz);
-	t_maillon * maillon1 = malloc(sizeof(t_maillon));
-	maillon1->face = definirTriangle3d(point1,point2,point3);
-	maillon1->couleur = BLANC;
-	maillon1->pt_suiv = (t_maillon *) malloc(sizeof(t_maillon));
-	t_maillon * maillon2 = malloc(sizeof(t_maillon));
-	maillon2->face = definirTriangle3d(point1,point3,point4);
-	maillon2->couleur = NOIR;
-	maillon2->pt_suiv = maillon1;
-	t_maillon * maillon3 = malloc(sizeof(t_maillon));
-	maillon3->couleur = BLANC;
-	maillon3->face = definirTriangle3d(point1,point4,point5);
-	maillon3->pt_suiv = maillon2;
-	t_maillon * maillon4 = malloc(sizeof(t_maillon));
-	maillon4->couleur = NOIR;
-	maillon4->face = definirTriangle3d(point1,point5,point2);
-	maillon4->pt_suiv = maillon3;
-	t_maillon * maillon5 = malloc(sizeof(t_maillon));
-	maillon5->couleur = BLANC;
-	maillon5->face = definirTriangle3d(point1,point2,point3);
-	maillon5->pt_suiv = maillon4;
-	t_maillon * maillon6 = malloc(sizeof(t_maillon));
-	maillon6->couleur = NOIR;
-	maillon6->face = definirTriangle3d(point2,point5,point6);
-	maillon6->pt_suiv = maillon5;
-	t_maillon * maillon7 = malloc(sizeof(t_maillon));
-	maillon7->couleur = BLANC;
-	maillon7->face = definirTriangle3d(point2,point6,point7);
-	maillon7->pt_suiv = maillon6;
-	t_maillon * maillon8 = malloc(sizeof(t_maillon));
-	maillon8->couleur = NOIR;
-	maillon8->face = definirTriangle3d(point2,point7,point3);
-	maillon8->pt_suiv = maillon7;
-	t_maillon * maillon9 = malloc(sizeof(t_maillon));
-	maillon9->couleur = BLANC;
-	maillon9->face = definirTriangle3d(point7,point5,point6);
-	maillon9->pt_suiv = maillon8;
-	t_maillon * maillon10 = malloc(sizeof(t_maillon));
-	maillon10->couleur = NOIR;
-	maillon10->face = definirTriangle3d(point7,point5,point8);
-	maillon10->pt_suiv = maillon9;
-	
-	t_maillon * maillon11 = malloc(sizeof(t_maillon));
-	maillon11->couleur = BLANC;
-	maillon11->face = definirTriangle3d(point7,point8,point4);
-	maillon11->pt_suiv = maillon10;
-	
-	t_maillon * maillon12 = malloc(sizeof(t_maillon));
-	maillon12->couleur = NOIR;
-	maillon12->face = definirTriangle3d(point8,point5,point4);
-	maillon12->pt_suiv = maillon11;
-	
-	t_objet3d * objet = objet_vide();
-	objet->tete = maillon12;
-	free(point1);
-	free(point2);
-	free(point3);
-	free(point4);
-	free(point5);
-	free(point6);
-	free(point7);
-	free(point8);
-	return objet;
+	int i = 0;
+	t_objet3d *o = objet_vide();
+	t_maillon * tmp;
+	t_point3d * p1;
+	t_point3d * p2;
+	t_point3d * p3;
+	t_triangle3d * t;
+	int coord[12][3] = {
+		{0,1,2},
+		{1,2,3},
+		{3,2,5},
+		{5,4,2},
+		{4,5,6},
+		{6,5,7},
+		{6,7,0},
+		{7,0,1},
+		{7,1,3},
+		{7,5,3},
+		{0,6,2},
+		{6,2,4}
+	};
+	double points[8][3] = {
+		{-lx/2,-ly/2,-lz/2},
+		{-lx/2,ly/2,-lz/2},
+		{lx/2,-ly/2,-lz/2},
+		{lx/2,ly/2,-lz/2},
+		{lx/2,-ly/2,lz/2},
+		{lx/2,ly/2,lz/2},
+		{-lx/2,-ly/2,lz/2},
+		{-lx/2,ly/2,lz/2}
+	};
+
+	for (i=0;i<12;i++) {
+		
+		tmp = (t_maillon *) malloc(sizeof(t_maillon));
+		
+		p1 = definirPoint3d(points[coord[i][0]][0],points[coord[i][0]][1],points[coord[i][0]][2]);
+		p2 = definirPoint3d(points[coord[i][1]][0],points[coord[i][1]][1],points[coord[i][1]][2]);
+		p3 = definirPoint3d(points[coord[i][2]][0],points[coord[i][2]][1],points[coord[i][2]][2]);
+		
+		t = definirTriangle3d(p1,p2,p3);
+		
+		tmp->face = t;
+		tmp->couleur = BLEUC;
+		
+		if(o != NULL) {
+			tmp->pt_suiv = o->tete;
+			o->tete = tmp;
+		}
+		o->est_trie = false;
+	}
+	return o;
+
 };
 t_objet3d* sphere_etu(double r, double nlat, double nlong){return NULL;};
 t_objet3d* sphere_amiga_etu(double r, double nlat, double nlong){return NULL;};
 t_objet3d* arbre_etu(double lx, double ly, double lz){
 	t_objet3d * parra = parallelepipede(lx,ly,5*lz/6);
-	t_point3d * point1 = definirPoint3d(0,0,5*lz/6);
-	t_point3d * point2 = definirPoint3d(0,ly,5*lz/6);
-	t_point3d * point3 = definirPoint3d(lx,0,5*lz/6);
-	t_point3d * point4 = definirPoint3d(lx,ly,5*lz/6);
-	t_point3d * point5 = definirPoint3d(lx,ly,lz);
+	t_point3d * point1 = definirPoint3d(-lx/2,-ly/2,5*lz/6);
+	t_point3d * point2 = definirPoint3d(-lx/2,ly/2,5*lz/6);
+	t_point3d * point3 = definirPoint3d(lx/2,-ly/2,5*lz/6);
+	t_point3d * point4 = definirPoint3d(lx/2,ly/2,5*lz/6);
+	t_point3d * point5 = definirPoint3d(lx/2,ly/2,lz);
 	t_maillon * maillon1 = malloc(sizeof(t_maillon));
 	t_maillon * maillon2 = malloc(sizeof(t_maillon));
 	t_maillon * maillon3 = malloc(sizeof(t_maillon));
@@ -237,12 +225,10 @@ void rotationObjet3d_etu(t_objet3d* pt_objet, t_point3d *centre, float degreX, f
 void rotationObjet3d_fast_etu(t_objet3d* pt_objet, t_point3d *centre, float degreX, float degreY, float degreZ){};
 void transformationObjet3d_etu(t_objet3d* pt_objet, double mat[4][4])
 {
-	t_maillon* o = pt_objet->tete;
-	while (o!=NULL)
-	{
-		if (o->face!=NULL) {
-			transformationTriangle3d(o->face, mat);	
-		}
+	t_maillon* o = NULL;
+	o = pt_objet->tete;
+	while (o!=NULL) {
+		transformationTriangle3d(o->face, mat);	
 		o = o->pt_suiv;
 	}
 	pt_objet->est_trie = false;

@@ -16,8 +16,8 @@ t_scene3d* definirScene3d_etu(t_objet3d *pt_objet){
 };
 t_scene3d* ajouter_relation_etu(t_scene3d* pt_feuille, t_objet3d *pt_objet){
 	t_scene3d * newScene = definirScene3d(pt_objet);
-	copier_matrice(newScene->montant,pt_feuille->descendant);
-	copier_matrice(newScene->descendant,pt_feuille->pt_fils->descendant);
+	copier_matrice(pt_feuille->descendant,newScene->montant);
+	copier_matrice(pt_feuille->pt_fils->descendant,newScene->descendant);
 	newScene->pt_suiv = pt_feuille->pt_fils;
 	pt_feuille->pt_fils = newScene;
 	return newScene;
