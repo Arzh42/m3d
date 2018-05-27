@@ -28,7 +28,7 @@
  void (*transformationTriangle3d)(t_triangle3d *t, double mat[4][4]) = 										transformationTriangle3d_etu;
 
 
- t_objet3d* (*objet_vide)() = 														   objet_vide_PA;
+ t_objet3d* (*objet_vide)() = 														   objet_vide_etu;
  t_objet3d *(*camera)(double l, double h, double n, double f, double d) = 			   camera_etu;
  t_objet3d* (*parallelepipede)(double lx, double ly, double lz) = 					   parallelepipede_PA;
  t_objet3d* (*sphere)(double r, double nlat, double nlong) = 						   sphere_PA;
@@ -46,7 +46,7 @@
  void (*translationObjet3d_fast)(t_objet3d* pt_objet, t_point3d *vecteur) = 		   translationObjet3d_fast_PA;
  void (*rotationObjet3d)(t_objet3d* pt_objet, t_point3d *centre, float degreX, float degreY, float degreZ) = 		rotationObjet3d_etu;
  void (*rotationObjet3d_fast)(t_objet3d* pt_objet, t_point3d *centre, float degreX, float degreY, float degreZ) =   rotationObjet3d_fast_PA;
- void (*transformationObjet3d)(t_objet3d* pt_objet, double mat[4][4]) = 			   transformationObjet3d_etu;
+ void (*transformationObjet3d)(t_objet3d* pt_objet, double mat[4][4]) = 			   transformationObjet3d_PA;
 
  t_scene3d* (*definirScene3d)(t_objet3d *pt_objet) = 								   definirScene3d_PA;
  t_scene3d* (*ajouter_relation)(t_scene3d* pt_feuille, t_objet3d *pt_objet) = 		   ajouter_relation_PA;
