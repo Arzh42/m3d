@@ -5,21 +5,16 @@
 #include "lib_mat.h"
 
 t_objet3d* objet_vide_etu(){
-	t_objet3d * objet = (t_objet3d *) malloc(sizeof(t_objet3d));
-	if (objet!=NULL) {
-		objet->est_trie = false;
-		objet->est_camera = false;
-		objet->largeur = 0;
-		objet->hauteur = 0;
-		objet->proche = 0;
-		objet->loin = 0;
-		objet->distance_ecran = 0;
-	}
-	else {
-		printf("erreur création objet\n");
-	}
+	
+	t_objet3d *o;
 
-	return objet;
+	o = (t_objet3d*) malloc(sizeof(t_objet3d));
+	o->est_trie = false;
+	o->est_camera = false;
+	o->tete = NULL;
+
+	return o;
+
 };
 t_objet3d *camera_etu(double l, double h, double n, double f, double d){
 	t_objet3d * objet = objet_vide();
