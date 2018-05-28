@@ -21,6 +21,8 @@ t_objet3d* objet_vide_etu(){
 
 	return objet;
 };
+
+
 t_objet3d *camera_etu(double l, double h, double n, double f, double d){
 	t_objet3d * objet = objet_vide();
 	objet->est_camera = true;
@@ -31,6 +33,9 @@ t_objet3d *camera_etu(double l, double h, double n, double f, double d){
 	objet->distance_ecran = d;
 	return objet;
 }; // zone l*h dans le champ n->f
+
+
+
 t_objet3d* parallelepipede_etu(double lx, double ly, double lz){
 	int i = 0;
 	t_objet3d *o = objet_vide();
@@ -86,8 +91,12 @@ t_objet3d* parallelepipede_etu(double lx, double ly, double lz){
 	return o;
 
 };
+
+
 t_objet3d* sphere_etu(double r, double nlat, double nlong){return NULL;};
 t_objet3d* sphere_amiga_etu(double r, double nlat, double nlong){return NULL;};
+
+
 t_objet3d* arbre_etu(double lx, double ly, double lz){
 	t_objet3d * parra = parallelepipede(lx,ly,5*lz/6);
 	t_point3d * point1 = definirPoint3d(-lx/2,-ly/2,5*lz/6);
@@ -112,9 +121,15 @@ t_objet3d* arbre_etu(double lx, double ly, double lz){
 	composerObjet3d(objet,parra);
 	return objet;
 };
+
+
+
 t_objet3d* damier_etu(double lx, double lz, double nx, double nz){
 	return NULL;
 };
+
+
+
 t_objet3d *copierObjet3d_etu(t_objet3d *o){
 	t_objet3d * objet = objet_vide();
 	t_maillon * maillon = o->tete; //on travaille sur maillon
@@ -199,6 +214,8 @@ t_point3d *centreGraviteObjet3d_etu(t_objet3d *o){
 	point = definirPoint3d(sommeX/compteur,sommeY/compteur,sommeZ/compteur);
 	return point;
 };
+
+
 void dessinerObjet3d_etu(t_surface *surface, t_objet3d* pt_objet, t_objet3d *camera){
 	t_maillon * maillon = pt_objet->tete;
 	while (maillon!=NULL) {
@@ -215,6 +232,8 @@ void translationObjet3d_etu(t_objet3d* pt_objet, t_point3d *vecteur){
 	}
 };
 void translationObjet3d_fast_etu(t_objet3d* pt_objet, t_point3d *vecteur){};
+
+
 void rotationObjet3d_etu(t_objet3d* pt_objet, t_point3d *centre, float degreX, float degreY, float degreZ){
 	t_maillon * maillon = pt_objet->tete;
 	while (maillon!=NULL) {
@@ -223,6 +242,8 @@ void rotationObjet3d_etu(t_objet3d* pt_objet, t_point3d *centre, float degreX, f
 	}
 };
 void rotationObjet3d_fast_etu(t_objet3d* pt_objet, t_point3d *centre, float degreX, float degreY, float degreZ){};
+
+
 void transformationObjet3d_etu(t_objet3d* pt_objet, double mat[4][4])
 {
 	t_maillon* o = NULL;

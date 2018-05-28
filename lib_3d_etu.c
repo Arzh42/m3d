@@ -66,21 +66,31 @@ t_triangle3d *copierTriangle3d_etu(t_triangle3d *t){
 		copierPoint3d_etu(t->abc[1]),
 		copierPoint3d_etu(t->abc[2]));
 };
+
+
+
 void differenceVecteur3d_etu(t_point3d *v1, t_point3d *v2){
 	v1->xyzt[0] = v1->xyzt[0]-v2->xyzt[0];
 	v1->xyzt[1] = v1->xyzt[1]-v2->xyzt[1];
 	v1->xyzt[2] = v1->xyzt[2]-v2->xyzt[2];
 }; //v1 = v1-v2
+
+
+
 void sommeVecteur3d_etu(t_point3d *v1, t_point3d *v2){
 	v1->xyzt[0] = v1->xyzt[0]+v2->xyzt[0];
 	v1->xyzt[1] = v1->xyzt[1]+v2->xyzt[1];
 	v1->xyzt[2] = v1->xyzt[2]+v2->xyzt[2];
 }; //v1 = v1+v2
+
+
 void divisionVecteur3d_etu(t_point3d *v1, int n){
 	v1->xyzt[0] = v1->xyzt[0]/n;
 	v1->xyzt[1] = v1->xyzt[1]/n;
 	v1->xyzt[2] = v1->xyzt[2]/n;
 }; //v1 = v1/n
+
+
 t_point3d* centreGraviteTriangle3d_etu(t_triangle3d *t){
 	return definirPoint3d_etu(
 		(t->abc[0]->xyzt[0]+t->abc[1]->xyzt[0]+t->abc[2]->xyzt[0])/3,
@@ -92,6 +102,9 @@ t_point3d* centreGraviteTriangle3d_etu(t_triangle3d *t){
 double zmoyen_etu(t_triangle3d *t){
 	return (t->abc[0]->xyzt[2]+t->abc[1]->xyzt[2]+t->abc[2]->xyzt[2])/3;
 };
+
+
+
 void remplirTriangle3d_etu(t_surface * surface, t_triangle3d * triangle, Uint32 c, double l, double h, double d){
 	t_triangle2d * triangle2d;
 	t_point3d * tmp;
@@ -133,6 +146,8 @@ void translationTriangle3d_etu(t_triangle3d *t, t_point3d *vecteur){
 	double trans[4][4] = {{1,0,0,vecteur->xyzt[0]},{0,1,0,vecteur->xyzt[1]},{0,0,1,vecteur->xyzt[2]},{0,0,0,1}};
 	transformationTriangle3d(t,trans);
 };
+
+
 void rotationTriangle3d_etu(t_triangle3d *t, t_point3d *centre, float degreX, float degreY, float degreZ){
 	t_point3d * retour = definirPoint3d(-1*centre->xyzt[0],-1*centre->xyzt[1],-1*centre->xyzt[2]);
 	double rotX[4][4] = {{1,0,0,0},{0,cos(degreX),-1*sin(degreX),0},{0,sin(degreX),cos(degreX),0},{0,0,0,0}};

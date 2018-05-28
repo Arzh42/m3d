@@ -30,10 +30,10 @@
 
  t_objet3d* (*objet_vide)() = 														   objet_vide_PA;
  t_objet3d *(*camera)(double l, double h, double n, double f, double d) = 			   camera_etu;
- t_objet3d* (*parallelepipede)(double lx, double ly, double lz) = 					   parallelepipede_etu;
+ t_objet3d* (*parallelepipede)(double lx, double ly, double lz) = 					   parallelepipede_PA;
  t_objet3d* (*sphere)(double r, double nlat, double nlong) = 						   sphere_PA;
  t_objet3d* (*sphere_amiga)(double r, double nlat, double nlong) = 				       sphere_amiga_PA;
- t_objet3d* (*arbre)(double lx, double ly, double lz) = 							   arbre_etu;
+ t_objet3d* (*arbre)(double lx, double ly, double lz) = 							   arbre_PA;
  t_objet3d* (*damier)(double lx, double lz, double nx, double nz) = 				   damier_PA;
  t_objet3d *(*copierObjet3d)(t_objet3d *o) = 										   copierObjet3d_PA;
  void (*composerObjet3d)(t_objet3d* o, t_objet3d* o2) = 							   composerObjet3d_etu;
@@ -49,7 +49,7 @@
  void (*transformationObjet3d)(t_objet3d* pt_objet, double mat[4][4]) = 			   transformationObjet3d_PA;
 
  t_scene3d* (*definirScene3d)(t_objet3d *pt_objet) = 								   definirScene3d_PA;
- t_scene3d* (*ajouter_relation)(t_scene3d* pt_feuille, t_objet3d *pt_objet) = 		   ajouter_relation_etu;
+ t_scene3d* (*ajouter_relation)(t_scene3d* pt_feuille, t_objet3d *pt_objet) = 		   ajouter_relation_PA;
  void (*translationScene3d)(t_scene3d *pt_scene, t_point3d *vecteur) = 				   translationScene3d_PA;
  void (*rotationScene3d)(t_scene3d *pt_scene, t_point3d *centre, float degreX, float degreY, float degreZ) = rotationScene3d_PA;
  void (*dessinerScene3d)(t_surface *surface, t_scene3d* pt_scene) = 				   dessinerScene3d_PA;
